@@ -49,3 +49,50 @@ body{
 
 /* Main Section Related Styles */
 
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* My Failures Section Styles */
+
+.My-Failures-Container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+.My-Failures > img{
+    width: 400px;
+    height: 500px;
+}
+.My-Failures-Heading{
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+}
+.My-Failures-Descriptio{
+    color: #999797;
+}
+.Highlight-Container > p{
+    color: #757575;
+}
+
+/* My Plan Section Styles */
+
+.My-Plan-Heading{
+    text-align: center;
+    font-size: 40px;
+}
+.My-Plan-Container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+.My-Plan-Section > p{
+    color: #999797;
+}
+
+/* Banner Section Style */
+
